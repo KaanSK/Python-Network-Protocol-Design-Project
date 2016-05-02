@@ -272,3 +272,6 @@ def Port_Input_Validator():
     else:
         print "Please enter a valid port number."
         Port_Input_Validator()
+def Help():
+    print "#To send file => #FILE <path> "
+    print "#To send text message, enter the desired text directly."

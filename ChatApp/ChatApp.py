@@ -20,17 +20,20 @@ port = Util.Port_Input_Validator()
 # Create socket and bind to address
 UDPSock = socket(AF_INET, SOCK_DGRAM)
 UDPSock.bind(addr)
-print "Ready to Chat!"
+print "Ready to Chat! Type #HELP for manual."
+print "#To send file => #FILE <path> "
+print "#To send text message, enter the desired text directly."
 while 1:
     # Send Message
     user_input = raw_input('>> ')
 
-    if "#FILE" in user_input:
+    if "#HELP" in user_input:
+        Util.Help()
+        continue
+    elif "#FILE" in user_input:
         Util.Send_File(UDPSock, addr, user_input[5:].strip())
-
     elif "#AUTH" in user_input:
         Util.Send_Auth(UDPSock,addr)
-
     elif user_input:
         Util.SendMessage(UDPSock, user_input, addr)
     # End Sending Message
