@@ -1,0 +1,30 @@
+2016-05-29 17:56:21,765 - __main__ - CRITICAL - critical
+2016-05-29 17:56:21,766 - __main__ - ERROR - error
+2016-05-29 18:03:38,845 - __main__ - CRITICAL - critical
+2016-05-29 18:03:38,845 - __main__ - ERROR - error
+2016-05-29 18:03:54,769 - __main__ - CRITICAL - critical
+2016-05-29 18:03:54,769 - __main__ - ERROR - error
+2016-05-29 18:04:08,568 - __main__ - CRITICAL - critical
+2016-05-29 18:04:08,568 - __main__ - ERROR - error
+2016-05-29 18:04:20,193 - __main__ - CRITICAL - critical
+2016-05-29 18:04:20,193 - __main__ - ERROR - error
+2016-05-30 00:26:30,745 - root - ERROR - <class 'TypeError'>
+2016-05-30 00:28:53,688 - root - ERROR - <class 'TypeError'>
+2016-05-30 00:29:41,975 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:29:41,977 - root - ERROR - <class 'TypeError'>
+2016-05-30 00:30:41,741 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:30:51,882 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:30:51,884 - root - ERROR - <class 'TypeError'>
+2016-05-30 00:30:58,669 - root - ERROR - (<class 'TypeError'>, TypeError('unorderable types: str() < int()',), <traceback object at 0x7f41ba20c488>)
+2016-05-30 00:31:15,421 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:31:15,422 - root - ERROR - <class 'TypeError'>
+2016-05-30 00:35:52,141 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:36:32,032 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:39:59,284 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:43:33,615 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:45:52,445 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:49:49,871 - root - ERROR - ['Traceback (most recent call last):\n', '  File "/media/raziel/Raziel-HDD/Work/NetworkProtocolDesign/Nesli/ITC8061/ChatApp/Utils.py", line 196, in Get_Port\n    if temp.isdigit() and temp < 65535:\n', '  File "/media/raziel/Raziel-HDD/Work/NetworkProtocolDesign/Nesli/ITC8061/ChatApp/Utils.py", line 196, in Get_Port\n    if temp.isdigit() and temp < 65535:\n', '  File "/home/raziel/Downloads/pycharm-community-2016.1.2/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 490, in trace_dispatch\n    self.do_wait_suspend(thread, frame, event, arg)\n', '  File "/home/raziel/Downloads/pycharm-community-2016.1.2/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 67, in do_wait_suspend\n    self._args[0].do_wait_suspend(*args, **kwargs)\n', '  File "/home/raziel/Downloads/pycharm-community-2016.1.2/helpers/pydev/pydevd.py", line 712, in do_wait_suspend\n    time.sleep(0.01)\n', 'KeyboardInterrupt\n']
+2016-05-30 00:50:27,798 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:50:27,799 - root - ERROR - <class 'TypeError'>
+2016-05-30 00:50:28,415 - root - ERROR - <class 'KeyboardInterrupt'>
+2016-05-30 00:50:28,416 - root - ERROR - <class 'TypeError'>
