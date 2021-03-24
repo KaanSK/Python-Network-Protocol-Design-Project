@@ -1,10 +1,5 @@
 # ITC8061
 
-##Group Members
-1. Kaan Sadik KARADAG
-2. Neslisah Celik
-3. Ilhan Celebi
-
 ##Requirements
 - Python 3.5
 - GnuPG
